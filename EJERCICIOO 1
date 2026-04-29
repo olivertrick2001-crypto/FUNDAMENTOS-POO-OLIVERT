@@ -1,0 +1,16 @@
+#include <iostream>
+
+class car{
+    public:
+        int speed;
+            void acelerate(){
+            speed=speed+10;
+            std::cout <<"speed:"<<speed;
+        } 
+};
+
+int main(){
+
+    car carro;
+    return 0;
+}
